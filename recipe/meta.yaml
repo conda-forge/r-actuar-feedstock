@@ -1,4 +1,4 @@
-{% set version = "3.1-2" %}
+{% set version = "3.1-4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/actuar_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/actuar/actuar_{{ version }}.tar.gz
-  sha256: de1ce3226d3639b225384d1205e4751bef7269b7d8863c6558c2533917aa583d
+  sha256: 80c3d1ebca6c3f4db4c61e9718de6e6708328cf972eae05a63c62075d0212b55
 
 build:
   merge_build_host: true  # [win]
   number: 0
+  skip: true  # [r_base == "4.0"]
   rpaths:
     - lib/R/lib/
     - lib/
