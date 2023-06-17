@@ -1,11 +1,22 @@
+About r-actuar-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-actuar-feedstock/blob/main/LICENSE.txt)
+
 About r-actuar
-==============
+--------------
 
 Home: https://gitlab.com/vigou3/actuar
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-actuar-feedstock/blob/main/LICENSE.txt)
+Summary: Functions and data sets for actuarial science: modeling of loss distributions; risk theory and ruin theory; simulation of compound models, discrete mixtures and compound hierarchical models; credibility theory. Support for many additional probability distributions to model insurance loss size and frequency: 23 continuous heavy tailed distributions; the Poisson-inverse Gaussian discrete distribution; zero-truncated and zero-modified extensions of the standard discrete distributions. Support for phase-type distributions commonly used to compute ruin probabilities.
+About r-actuar
+--------------
+
+Home: https://gitlab.com/vigou3/actuar
+
+Package license: GPL-2.0-or-later
 
 Summary: Functions and data sets for actuarial science: modeling of loss distributions; risk theory and ruin theory; simulation of compound models, discrete mixtures and compound hierarchical models; credibility theory. Support for many additional probability distributions to model insurance loss size and frequency: 23 continuous heavy tailed distributions; the Poisson-inverse Gaussian discrete distribution; zero-truncated and zero-modified extensions of the standard discrete distributions. Support for phase-type distributions commonly used to compute ruin probabilities.
 
@@ -27,13 +38,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11125&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-actuar-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11125&branchName=main">
@@ -41,10 +45,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_r_base4.1</td>
+              <td>linux_64_r_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11125&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-actuar-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-actuar-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -52,6 +56,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11125&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-actuar-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_r_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11125&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-actuar-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
