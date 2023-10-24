@@ -3,6 +3,7 @@ About r-actuar-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-actuar-feedstock/blob/main/LICENSE.txt)
 
+
 About r-actuar
 --------------
 
@@ -11,6 +12,7 @@ Home: https://gitlab.com/vigou3/actuar
 Package license: GPL-2.0-or-later
 
 Summary: Functions and data sets for actuarial science: modeling of loss distributions; risk theory and ruin theory; simulation of compound models, discrete mixtures and compound hierarchical models; credibility theory. Support for many additional probability distributions to model insurance loss size and frequency: 23 continuous heavy tailed distributions; the Poisson-inverse Gaussian discrete distribution; zero-truncated and zero-modified extensions of the standard discrete distributions. Support for phase-type distributions commonly used to compute ruin probabilities.
+
 About r-actuar
 --------------
 
